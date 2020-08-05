@@ -7,4 +7,8 @@ System.out.println("Sum");
   {
     System.out.println("Diff"+(a-b));
   }
+  public void prod(int a,int b)
+  {
+    System.out.println(a*b);
+  }
 }
