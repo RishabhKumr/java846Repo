@@ -11,4 +11,8 @@ System.out.println("Sum");
   {
     System.out.println(a*b);
   }
+  public void mod(int a,int b)
+  {
+    System.out.println(a%b);
+  }
 }
