@@ -1,5 +1,5 @@
 class EmployeeManagement{
-public void add(int a,int b)
+public static void add(int a,int b)
 {
 System.out.println("Sum");
 }
@@ -14,5 +14,9 @@ System.out.println("Sum");
   public void div(int a,int b)
   {
     System.out.println(a/b);
+  }
+  public static void main(String args[])
+  {
+    System.out.println(add(1,2));
   }
 }
