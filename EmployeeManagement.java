@@ -1,7 +1,7 @@
 class EmployeeManagement{
 public static void add(int a,int b)
 {
-System.out.println("Sum");
+System.out.println("Sum"+(a+b));
 }
   public void diff(int a,int b)
   {
@@ -17,6 +17,6 @@ System.out.println("Sum");
   }
   public static void main(String args[])
   {
-    System.out.println(add(1,2));
+    add(1,2);
   }
 }
